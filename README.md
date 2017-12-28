@@ -6,7 +6,7 @@
 > 
 ### [我的博客在这里 &rarr;](https://devinlwx.github.io/blogDL/)
 
-![](https://raw.githubusercontent.com/devinlwx/devinlwx.github.io/master/img/readme-home.png)
+![](https://raw.githubusercontent.com/devinlwx/blogDL/master/img/readme-home.png)
 
 
 ## 使用
