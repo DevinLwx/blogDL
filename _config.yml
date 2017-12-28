@@ -5,14 +5,14 @@ header-img: img/post-bg-desk.jpg
 email: fav_lwx@163.com
 description: "待我骑马射箭，归来仍是少年。"
 keyword: "DL, DL Blog, 寒士的博客, DevinLwx, 寒士, iOS, Apple, iPhone"
-url: "http://DevinLwx.github.io"          # your host, for absolute URL
-baseurl: "/blogDL"      # for example, '/blog' if your blog hosted on 'host/blog'
+url: "http://DevinLwx.github.io/blogDL"          # your host, for absolute URL
+baseurl: "/"      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/DevinLwx/blogDL" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/about-DL-gentle.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /blogDL/img/about-DL-gentle.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
