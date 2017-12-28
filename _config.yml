@@ -6,7 +6,7 @@ email: fav_lwx@163.com
 description: "待我骑马射箭，归来仍是少年。"
 keyword: "DL, DL Blog, 寒士的博客, DevinLwx, 寒士, iOS, Apple, iPhone"
 url: "http://DevinLwx.github.io/blogDL"          # your host, for absolute URL
-baseurl: "/blog"      # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: "/blogDL"      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/DevinLwx/blogDL" # you code repository
 
 # Sidebar settings
