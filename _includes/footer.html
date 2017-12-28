@@ -36,7 +36,7 @@
                     </li>
                     {% endif %}
 
-                    <!-- add Weibo, Zhihu by Hux, add target = "_blank" to <a> by Hux -->
+                    <!-- add Weibo, Zhihu by DL, add target = "_blank" to <a> by DL -->
                     {% if site.zhihu_username %}
                     <li>
                         <a target="_blank" href="https://www.zhihu.com/people/{{ site.zhihu_username }}">
@@ -93,7 +93,7 @@
                 <p class="copyright text-muted">
                     Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
                     <br>
-                    Theme on <a href="{{ site.github_repo }}">GitHub</a> |
+                    Theme on <a target="_blank" href="{{ site.github_repo }}">GitHub</a> |
                     <iframe
                         style="margin-left: 2px; margin-bottom:-5px;"
                         frameborder="0" scrolling="0" width="100px" height="20px"
@@ -112,7 +112,7 @@
 <script src="{{ "/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="{{ "/js/hux-blog.min.js " | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/dl-blog.min.js " | prepend: site.baseurl }}"></script>
 
 <!-- Service Worker -->
 {% if site.service-worker %}
@@ -186,7 +186,7 @@
 <!-- Google Analytics -->
 {% if site.ga_track_id %}
 <script>
-    // dynamic User by Hux
+    // dynamic User by DL
     var _gaId = '{{ site.ga_track_id }}';
     var _gaDomain = '{{ site.ga_domain }}';
 
@@ -205,7 +205,7 @@
 <!-- Baidu Tongji -->
 {% if site.ba_track_id %}
 <script>
-    // dynamic User by Hux
+    // dynamic User by DL
     var _baId = '{{ site.ba_track_id }}';
 
     // Originial
@@ -248,7 +248,7 @@
 
     /*
      * Doc: https://github.com/davist11/jQuery-One-Page-Nav
-     * Fork by Hux to support padding
+     * Fork by DL to support padding
      */
     async("{{ '/js/jquery.nav.js' | prepend: site.baseurl }}", function () {
         $('.catalog-body').onePageNav({
